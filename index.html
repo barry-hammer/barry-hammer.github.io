@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barry Hammer</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, p, a {
+            margin: 0;
+            padding: 0;
+            font-family: Tahoma, sans-serif;
+            background-color: #fffba0;
+        }
+
+        body {
+            scroll-behavior: smooth;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        /* Container styles */
+        #container {
+            width: 80%;
+            margin: auto;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            align-items: center;
+            padding: 1rem 0;
+            border-bottom: 2px solid #ccc;
+        }
+
+        header img {
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+
+        /* Navigation */
+        nav {
+            margin-left: auto;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Sections */
+        section {
+            padding: 2rem 0;
+            border-bottom: 1px solid #ddd;
+            position: relative;
+        }
+
+        /* Contact Link in each section */
+        .contact-link {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+		
+		/* Back to Top Link */
+        .back-to-top {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        .back-to-top:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <!-- Header -->
+        <header>
+            <img src="BDH.png" alt="Barry Hammer">
+            <h1>Barry Hammer</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#qa-engineer">QA Engineer</a></li>
+                    <li><a href="#technical-writing">Technical Writing</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About</h2>
+            <p>I am originally from Brooklyn, New York, then lived for 15 years in Holland, and now I live in Israel. I started out as a simple tester, then became a seasoned QA Engineer, and now I am also a Technical Writer. I enjoy movies, sports, music, cooking and spending time with my family. In short, I am someone who keeps building on their experience to make me a better worker and parent. I hope to bring my knowledge and talents to your company next.</p>
+            <a href="#contact" class="contact-link">Contact Me</a>
+        </section>
+
+        <!-- QA Engineer Section -->
+        <section id="qa-engineer">
+            <h2>QA Engineer</h2>
+            <p>I am a seasoned QA engineer with over 20 years of experience in quality assurance, dedicated to ensuring that software is robust, reliable, and meets high standards for performance and usability. Over the course of my career, I have worked on a range of projects, often being the first to establish and implement QA processes where none existed previously. I took full responsibility for creating detailed test designs and comprehensive test cases, ensuring that all potential issues were anticipated and thoroughly checked before release.</p>
+			<br>
+			<p>My most recent QA Engineer role was with Gravyty, based in Ra'anana. I was responsible for testing their Advance project, which involved comprehensive testing of credit card payment processes.  This ensured that integrations with popular payment providers, such as Stripe and BBMS, were secure, reliable, and user-friendly. My work at Gravyty included both front-end testing to ensure a smooth user experience and back-end testing on a system built with Ruby on Rails.</p>
+			<br>
+			<p>I am well-versed in using automated testing tools, having utilized Selenium WebDriver (written in Python) and Cypress to streamline test execution and improve efficiency. With these tools, I have developed automated test suites that have significantly reduced manual testing time and helped identify potential issues earlier in the development cycle.</p>
+            <br>
+            <strong><p>Would you like to see a sample of the work I can do as a QA Engineer? <a href="https://red-terra-87.tiiny.site">Here is a sample test plan.</a></p></strong>
+            <a href="#contact" class="contact-link">Contact Me</a>
+        </section>
+
+        <!-- Technical Writing Section -->
+        <section id="technical-writing">
+            <h2>Technical Writing</h2>
+            <p>With many years of experience as a technical writer, I bring a unique blend of technical insight and communication skills to documentation projects, particularly those in software development. I am fluent in English, and I have a B.A. in English from Brooklyn College.</p>
+			<br>
+			<p>My current work at Sony Semiconudctors Israel involves creating and editing technical documentation for our customer base. In this role, I am responsible for generating comprehensive, user-friendly materials that our customers can access easily in both digital and PDF formats. I also designed a dedicated website using Asciidoc, providing a seamless platform where documentation is available in multiple formats. This initiative has greatly enhanced the customer experience, allowing them to interact with technical documents in whichever format best suits their needs.</p>
+			<br>
+			<p>In addition to developing this platform, I utilize version control tools like GitHub and GitLab to manage and update documentation effectively. Working with these tools ensures that all document versions are consistent, up-to-date, and aligned with the latest software changes. I coordinate closely with development teams to track project progress, making timely updates to documentation as new features and modifications are implemented. This process not only maintains document accuracy but also helps to improve collaboration with technical teams, who rely on these resources for their own workflows.</p>
+			<br>
+            <strong><p>Would you like to see a sample of the work I can do as a Technical Writer? <a href="https://violet-grete-25.tiiny.site">Here is a sample of an HTTP Services document.</a></p></strong>
+            <a href="#contact" class="contact-link">Contact Me</a>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+			<h2>Contact Me</h2>
+            Please feel free to contact me to talk more with me!
+            <br>
+            <a href="mailto:barryhammer101@gmail.com&subject=I'd like to connect with you">Barry Hammer's email</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+972542264578">0542264578</a>
+			<a href="#container" class="contact-link">Back to top</a>
+        </section>
+    </div>
+
+</body>
+</html>
